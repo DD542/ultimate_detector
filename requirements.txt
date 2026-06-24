@@ -1,0 +1,7 @@
+opencv-python
+torch
+ultralytics
+transformers
+pillow
+accelerate
+huggingface_hub

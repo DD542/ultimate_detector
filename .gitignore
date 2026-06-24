@@ -1,0 +1,25 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Modeles telecharges automatiquement (trop lourds pour Git)
+*.pt
+*.onnx
+yolov8*.pt
+yolo11*.pt
+
+# Cache Hugging Face / Ultralytics
+runs/
+.cache/
+
+# Logs et captures du mode Chantier (donnees personnelles/test)
+chantier_logs/
+
+# PyCharm
+.idea/
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
